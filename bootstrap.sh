@@ -47,7 +47,7 @@ if hash brew &>/dev/null; then
 else
 	echo_warn "Installing homebrew..."
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-# fi
+fi
 
 # Update homebrew recipes
 brew update
